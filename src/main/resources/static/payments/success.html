@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата успешна</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .success-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="success-icon">✅</div>
+    <h1>Оплата прошла успешно!</h1>
+    <p>Спасибо за покупку! Запросы уже добавлены к вашему балансу.</p>
+    <p>Вы можете вернуться в Telegram и продолжить использование бота.</p>
+
+    <a href="https://t.me/YourBotUsername" class="button">Вернуться в бота</a>
+
+    <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+        Если у вас есть вопросы, напишите в поддержку: support@yourbot.com
+    </p>
+</div>
+</body>
+</html>
